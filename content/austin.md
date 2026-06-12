@@ -4,23 +4,22 @@ hideMeta: true
 disableShare: true
 ---
 
-Hello, I’m Austin Chen.
-Welcome to my digital workbench. I am a software engineer, systems architect, and maker based in Taipei.
+Hello, I’m Austin Chen—a software engineer, systems architect, and maker based in Taipei.
 
-I’ve always believed that the best architecture—whether in code or in life—comes from balancing deep precision with a broad perspective. This blog is organized around that philosophy, captured by four words that define my world:
+I believe the best architecture, whether in systems or in life, comes from balancing precision with perspective. This space reflects that philosophy, organized around four pillars:
 
 💻 **Algorithms (The Tech)**
-My professional world revolves around infrastructure, modern C++, and edge computing. I design and build highly efficient systems that bridge the gap between low-level physical hardware and cloud-native telemetry pipelines. From untangling complex system architectures to optimizing high-throughput data streams, I am passionate about writing clean, resilient, and highly performant code that acts as a reliable gatekeeper for industrial data.
+My professional world revolves around infrastructure, modern C++, and edge computing. I build efficient systems that bridge low-level physical hardware with cloud telemetry. I am passionate about writing clean, highly performant code that keeps industrial data pipelines running smoothly.
 
 📸 **Aperture (The Focus & The Future)**
-To me, an aperture is about bringing the world into focus. It represents a major dual passion of mine:
+Aperture is about bringing the world into focus. For me, it is a dual passion:
 * **The Lens:** Capturing the symmetry, light, and visual rhythm of the world through photography.
-* **The Light:** My deep commitment to industrial energy management and ESG (Environmental, Social, and Governance) analytics. I use data pipelines to shine a light on energy efficiency, abstracting complex southbound industrial metrics into clear insights that drive sustainability.
+* **The Light:** Using data pipelines for industrial energy management and ESG analytics. I help turn complex industrial metrics into clear, actionable insights for sustainability.
 
 🍳 **Apron (The Craft)**
-When I step away from the screen, I look for tactile, sensory rituals to ground myself. Putting on an apron represents a shift in energy. Whether it is the precision of a slow, manual coffee pour in the morning or the patience required to cook a great meal for my family, food is my favorite way to disconnect from the digital world and create something tangible.
+When I step away from the screen, I use tactile, sensory rituals to ground myself. Putting on an apron represents a shift in focus. Whether it is the precision of a slow coffee pour in the morning or the patience of cooking a meal for my family, food is my way to disconnect from the digital world and create something tangible.
 
 📍 **Austin (The Journey)**
-Beyond the code, the camera, and the kitchen, I am a husband, a father, and a fitness enthusiast who enjoys a heavy session at the gym. This section is where I share personal reflections, career milestones, lessons in continuous learning, and the daily process of refining my craft.
+Beyond the code, the camera, and the kitchen, I am a husband and a father. I am a die-hard tennis player, and I hit the gym once or twice a week for weightlifting to stay fit. This section is where I share personal reflections, career milestones, and the ongoing process of refining my craft.
 
 Thanks for stopping by. I hope you find something here that inspires you to optimize your own algorithms or widen your own aperture.
