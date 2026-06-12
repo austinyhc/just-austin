@@ -1,0 +1,25 @@
+/* Custom CSS overrides for Hugo PaperMod */
+
+/* Left-align the long profile biography for better readability while keeping the page centered */
+.profile_inner span {
+    text-align: left;
+    max-width: 680px;
+    margin: 20px auto 0;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+/* Add appropriate spacing between paragraphs in the bio */
+.profile_inner span p {
+    margin-bottom: 1.25em;
+}
+
+/* Ensure list items inside the bio render cleanly */
+.profile_inner span ul {
+    margin-left: 20px;
+    margin-bottom: 1.25em;
+}
+
+.profile_inner span li {
+    margin-bottom: 0.5em;
+}
