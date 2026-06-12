@@ -58,17 +58,15 @@ A more useful definition of memory leak is,
 
 > Memory was allocated and **cannot be subsequently freed** because the program lost track of any pointers to the allocated memory block.
 
-:::{.callout-note title="What Valgrind Defines Memory Leak"}
-**Valgrind** uses the stricter definition of the term memory leak. This is the type of leak which can potentially cause significant heap depletion, especially for **long lived** processes. The **still reachable** category within Valgrind's leak report refers to allocations that fit only the first definition of memory leak. These blocks were not freed, but they could have been freed (if the programmer had wanted to) because the program still was keeping track of pointers to those memory blocks.[^2]
-:::
+> 📝 **What Valgrind Defines as Memory Leak**
+> **Valgrind** uses the stricter definition of the term memory leak. This is the type of leak which can potentially cause significant heap depletion, especially for **long lived** processes. The **still reachable** category within Valgrind's leak report refers to allocations that fit only the first definition of memory leak. These blocks were not freed, but they could have been freed (if the programmer had wanted to) because the program still was keeping track of pointers to those memory blocks.[^2]
 
 ## Conclusion
 
 The answer is quite obviously up to this point, the `exit()` invokes a termination of the current process, the OS collects all the memory allocated to that process, so strictly speakning, the `exit()` does not pose any memory leaks in this case.
 
-:::{.callout-warning}
-Just to add, in the vast majority of cases the OS will free the memory - as is the case with normal flavors of Windows, Linux, Solaris, etc. However it is important to note that in specialized environments such as various Real-Time Operating Systems the memory may not be freed when the program is terminated.
-:::
+> ⚠️ **Warning**
+> Just to add, in the vast majority of cases the OS will free the memory - as is the case with normal flavors of Windows, Linux, Solaris, etc. However it is important to note that in specialized environments such as various Real-Time Operating Systems the memory may not be freed when the program is terminated.
 
 [^1]: [`std::exit`](https://en.cppreference.com/w/cpp/utility/program/exit)
 [^2]: [Still Reachable Leak detected by Valgrind](https://stackoverflow.com/questions/3840582/still-reachable-leak-detected-by-valgrind)

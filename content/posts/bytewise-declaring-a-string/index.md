@@ -14,10 +14,9 @@ toc: true
 
 Let me start with some codes. This is a classic leetcode problem, [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/). The strategy is simple. It reuses the same chunk of memory of input, `s`, as the stack for checking the closing parentheses. However, this is not what we are focusing on. Take some time and try to spot the problem.
 
-:::{.callout-tip title="Hint" collapse=true}
-1. The execution complains **`SEGFAULT`**.
-2. `GDB` tells the error happens at **line 7**.
-:::
+> 💡 **Hint**
+> 1. The execution complains **`SEGFAULT`**.
+> 2. `GDB` tells the error happens at **line 7**.
 
 ```c
 bool isValid(char *s) {
@@ -96,9 +95,8 @@ With that being said, the C11 Standard only states it as an **undefined behavior
 
 From the description above, we know the `SEGFAULT` is a behavior conducted by an **operating system** when a program tries to access a restricted area of memory.
 
-:::{.callout-note title="Make use of the `SEGFAULT`"}
-We can make use of this feature to store a data that we don't want it to be mutated in a **read-only** segment. When someone try to modify the content, it raises `SEGFAULT`.
-:::
+> 📝 **Make use of the SEGFAULT**
+> We can make use of this feature to store data that we don't want to be mutated in a **read-only** segment. When someone tries to modify the content, it raises `SEGFAULT`.
 
 Up to this point, we can safely suggest that and nearly conclude that `char* test_case` (pointer notation) place the `test_case` in a **read-only** area.
 

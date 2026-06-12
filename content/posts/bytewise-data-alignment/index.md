@@ -65,9 +65,8 @@ struct Test {
 ```
 Intuitively, this **Test** structure takes 1 byte + 8 bytes + 1 byte = 10 bytes, while the fact is 24 bytes.
 
-:::info
-:pencil2: A struct is always aligned to the largest type’s alignment requirements
-:::
+> 📝 **Alignment Rule**
+> A struct is always aligned to the largest type’s alignment requirements
 
 ```c
 struct Test {
