@@ -1,4 +1,4 @@
-baseURL = 'https://www.sensorai.link/'
+baseURL = 'https://austinyhc.github.io/just-austin/'
 languageCode = 'en-us'
 title = 'AUSTIN CAN HELP'
 theme = 'PaperMod'
@@ -37,9 +37,9 @@ theme = 'PaperMod'
 [menu]
   [[menu.main]]
     name = "Posts"
-    url = "/posts/"
+    pageRef = "/posts"
     weight = 10
   [[menu.main]]
     name = "About"
-    url = "/about/"
+    pageRef = "/about"
     weight = 20
