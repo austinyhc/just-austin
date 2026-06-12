@@ -27,7 +27,7 @@ Welcome to my space where logic meets life.
       { name = "Algorithms", url = "/just-austin/algorithms/" },
       { name = "Aperture", url = "/just-austin/aperture/" },
       { name = "Apron", url = "/just-austin/apron/" },
-      { name = "Austin (About Me)", url = "/just-austin/austin/" }
+      { name = "Austin", url = "/just-austin/austin/" }
     ]
 
   [params.homeInfoParams]
