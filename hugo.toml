@@ -1,6 +1,6 @@
 baseURL = 'https://austinyhc.github.io/just-austin/'
 languageCode = 'en-us'
-title = 'AUSTIN CAN HELP'
+title = 'Austin: Abstraction, Aperture, Apron'
 theme = 'PaperMod'
 
 [params]
@@ -10,18 +10,17 @@ theme = 'PaperMod'
 
   [params.profileMode]
     enabled = true
-    title = "AUSTIN CAN HELP"
+    title = "Austin: Abstraction, Aperture, Apron"
     subtitle = "I am Austin; A System Software Engineer by passion. Data Science Practitioner at heart. Avid reader. Essentialist. Nerd. Newbie Rustacean. Virgo. ♍"
     imageUrl = "/profile.jpg"
     imageWidth = 150
     imageHeight = 150
     buttons = [
-      { name = "Browse Blog Posts", url = "/posts/" },
-      { name = "About Me", url = "/about/" }
+      { name = "Browse Blog Posts", url = "/posts/" }
     ]
 
   [params.homeInfoParams]
-    Title = "AUSTIN CAN HELP"
+    Title = "Austin: Abstraction, Aperture, Apron"
     Content = "I am Austin; A System Software Engineer by passion. Data Science Practitioner at heart. Avid reader. Essentialist. Nerd. Newbie Rustacean. Virgo. ♍"
 
   [[params.socialIcons]]
@@ -39,7 +38,3 @@ theme = 'PaperMod'
     name = "Posts"
     pageRef = "/posts"
     weight = 10
-  [[menu.main]]
-    name = "About"
-    pageRef = "/about"
-    weight = 20
