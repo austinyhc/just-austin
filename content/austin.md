@@ -17,9 +17,9 @@ Aperture is about bringing the world into focus. For me, it is a dual passion:
 * **The Light:** Using data pipelines for industrial energy management and ESG analytics. I help turn complex industrial metrics into clear, actionable insights for sustainability.
 
 🍳 **Apron (The Craft)**
-When I step away from the screen, I use tactile, sensory rituals to ground myself. Putting on an apron represents a shift in focus. Whether it is the precision of a slow coffee pour in the morning or the patience of cooking a meal for my family, food is my way to disconnect from the digital world and create something tangible.
+When I step away from the screen, I look for tactile, earthy rituals to ground myself. Lately, putting on an apron represents a shift toward the soil. As a self-proclaimed green finger, I find quiet patience in gardening, nurturing plants, and working with the soil. It is my favorite way to disconnect from the digital world and create something tangible.
 
 📍 **Austin (The Journey)**
-Beyond the code, the camera, and the kitchen, I am a husband and a father. I am a die-hard tennis player, and I hit the gym once or twice a week for weightlifting to stay fit. This section is where I share personal reflections, career milestones, and the ongoing process of refining my craft.
+Beyond the code, the camera, and the garden, I am a husband and a father. I am a die-hard tennis player, and I hit the gym once or twice a week for weightlifting to stay fit. This section is where I share personal reflections, career milestones, and the ongoing process of refining my craft.
 
 Thanks for stopping by. I hope you find something here that inspires you to optimize your own algorithms or widen your own aperture.
