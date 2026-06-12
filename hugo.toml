@@ -1,3 +1,36 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.sensorai.link/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'AUSTIN CAN HELP'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto"
+  showShareButtons = true
+  showCodeCopyButtons = true
+  
+  [params.profileMode]
+    enabled = false
+
+  [params.homeInfoParams]
+    Title = "AUSTIN CAN HELP"
+    Content = "I am Austin; A System Software Engineer by passion. Data Science Practitioner at heart. Avid reader. Essentialist. Nerd. Newbie Rustacean. Virgo. ♍"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/austinyhc"
+  [[params.socialIcons]]
+    name = "x"
+    url = "https://twitter.com/austinyht"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/austinyhc/"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
