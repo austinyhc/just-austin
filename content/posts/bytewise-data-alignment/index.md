@@ -150,6 +150,7 @@ if __name__ == '__main__':
     hello()
 ```
 
-[]: Sven-Hendrik Haase, "Alignment in C", https://hps.vi4io.org/_media/teaching/wintersemester_2013_2014/epc-14-haase-svenhendrik-alignmentinc-paper.pdf
-[]: https://www.kernel.org/doc/Documentation/unaligned-memory-access.txt
+* Sven-Hendrik Haase, "Alignment in C", https://hps.vi4io.org/_media/teaching/wintersemester_2013_2014/epc-14-haase-svenhendrik-alignmentinc-paper.pdf
+* Linux Kernel Unaligned Memory Access Documentation, https://www.kernel.org/doc/Documentation/unaligned-memory-access.txt
+
 

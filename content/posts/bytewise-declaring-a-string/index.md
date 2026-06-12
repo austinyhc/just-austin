@@ -105,8 +105,8 @@ Up to this point, we can safely suggest that and nearly conclude that `char* tes
 At last, let's conclude by justifying where exactly in the memory are the two following variables located.
 
 ```c
-char test_case_0[] = "()"; // pointer notation
-char *test_case_00 = "()"; // array subscripting notation
+char test_case_0[] = "()"; // array subscripting notation
+char *test_case_00 = "()"; // pointer notation
 ```
 
 ```sh

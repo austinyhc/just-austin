@@ -80,7 +80,7 @@ For my builds, I use option `Og` for `gcc` compiler. This is, by my estimations,
 #pragma GCC push_options // save current compiler options
 #pragma GCC optimize ("-O0") // set optimization level to zero
 
-void foo(int a)
+int foo(int a)
 {
     int cpy = a;
     return cpy + 5;

@@ -44,7 +44,7 @@ Also, when it comes to the **destructor in C++** [^1],
 - with `exit()`, for each **local object, `obj`, with static storage duration**, `obj` is destroyed as if a function calling the destructor of `obj` were registered with `std::atexit` at the completion of the constructor of `obj`.
 
 
-## Meomory Leak
+## Memory Leak
 
 Before jumping into any conclusion, let's refresh a bit on the definition of **memory leak**. To my way of thinking, essentially, there are two definitions of **memory leak** that are in common usage among programmers.
 
