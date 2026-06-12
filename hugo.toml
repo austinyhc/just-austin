@@ -1,6 +1,6 @@
 baseURL = 'https://austinyhc.github.io/just-austin/'
 languageCode = 'en-us'
-title = 'Austin: Abstraction, Aperture, Apron'
+title = 'Austin'
 theme = 'PaperMod'
 
 [params]
