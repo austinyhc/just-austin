@@ -7,7 +7,7 @@ theme = 'PaperMod'
   defaultTheme = "auto"
   showShareButtons = true
   showCodeCopyButtons = true
-  
+
   [params.profileMode]
     enabled = false
 
@@ -28,9 +28,9 @@ theme = 'PaperMod'
 [menu]
   [[menu.main]]
     name = "Posts"
-    url = "posts/"
+    url = "/posts/"
     weight = 10
   [[menu.main]]
     name = "About"
-    url = "about/"
+    url = "/about/"
     weight = 20
