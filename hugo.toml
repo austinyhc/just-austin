@@ -24,7 +24,9 @@ Welcome to my space where logic meets life.
     imageWidth = 150
     imageHeight = 150
     buttons = [
-      { name = "Browse Blog Posts", url = "/just-austin/posts/" },
+      { name = "Algorithms", url = "/just-austin/algorithms/" },
+      { name = "Aperture", url = "/just-austin/aperture/" },
+      { name = "Apron", url = "/just-austin/apron/" },
       { name = "Austin (About Me)", url = "/just-austin/austin/" }
     ]
 
@@ -44,10 +46,18 @@ Welcome to my space where logic meets life.
 
 [menu]
   [[menu.main]]
-    name = "Posts"
-    pageRef = "/posts"
+    name = "Algorithms"
+    pageRef = "/algorithms"
     weight = 10
+  [[menu.main]]
+    name = "Aperture"
+    pageRef = "/aperture"
+    weight = 20
+  [[menu.main]]
+    name = "Apron"
+    pageRef = "/apron"
+    weight = 30
   [[menu.main]]
     name = "Austin"
     pageRef = "/austin"
-    weight = 20
+    weight = 40
