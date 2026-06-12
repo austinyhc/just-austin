@@ -58,6 +58,6 @@ Welcome to my space where logic meets life.
     pageRef = "/apron"
     weight = 30
   [[menu.main]]
-    name = "Austin"
+    name = "Austin (About me)"
     pageRef = "/austin"
     weight = 40
