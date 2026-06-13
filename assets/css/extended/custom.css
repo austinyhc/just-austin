@@ -23,3 +23,106 @@
 .profile_inner span li {
     margin-bottom: 0.5em;
 }
+
+/* Markdown Alerts / Callouts */
+blockquote.alert {
+    padding-block: 12px;
+    padding-inline: 16px;
+    margin: 1.5em 0;
+    border-inline-start: 4px solid var(--border);
+    background-color: var(--code-bg);
+    border-radius: 4px;
+    color: var(--content);
+}
+
+.alert-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+/* Alert Types - Light Mode Colors */
+blockquote.alert-note {
+    border-inline-start-color: #3b82f6;
+    background-color: rgba(59, 130, 246, 0.05);
+}
+blockquote.alert-note .alert-title {
+    color: #3b82f6;
+}
+
+blockquote.alert-tip {
+    border-inline-start-color: #10b981;
+    background-color: rgba(16, 185, 129, 0.05);
+}
+blockquote.alert-tip .alert-title {
+    color: #10b981;
+}
+
+blockquote.alert-warning {
+    border-inline-start-color: #f59e0b;
+    background-color: rgba(245, 158, 11, 0.05);
+}
+blockquote.alert-warning .alert-title {
+    color: #f59e0b;
+}
+
+blockquote.alert-caution {
+    border-inline-start-color: #ef4444;
+    background-color: rgba(239, 68, 68, 0.05);
+}
+blockquote.alert-caution .alert-title {
+    color: #ef4444;
+}
+
+blockquote.alert-important {
+    border-inline-start-color: #8b5cf6;
+    background-color: rgba(139, 92, 246, 0.05);
+}
+blockquote.alert-important .alert-title {
+    color: #8b5cf6;
+}
+
+/* Dark mode adjustments (using slightly desaturated/lighter colors for better contrast) */
+[data-theme="dark"] blockquote.alert-note {
+    border-inline-start-color: #60a5fa;
+    background-color: rgba(96, 165, 250, 0.08);
+}
+[data-theme="dark"] blockquote.alert-note .alert-title {
+    color: #60a5fa;
+}
+
+[data-theme="dark"] blockquote.alert-tip {
+    border-inline-start-color: #34d399;
+    background-color: rgba(52, 211, 153, 0.08);
+}
+[data-theme="dark"] blockquote.alert-tip .alert-title {
+    color: #34d399;
+}
+
+[data-theme="dark"] blockquote.alert-warning {
+    border-inline-start-color: #fbbf24;
+    background-color: rgba(251, 191, 36, 0.08);
+}
+[data-theme="dark"] blockquote.alert-warning .alert-title {
+    color: #fbbf24;
+}
+
+[data-theme="dark"] blockquote.alert-caution {
+    border-inline-start-color: #f87171;
+    background-color: rgba(248, 113, 113, 0.08);
+}
+[data-theme="dark"] blockquote.alert-caution .alert-title {
+    color: #f87171;
+}
+
+[data-theme="dark"] blockquote.alert-important {
+    border-inline-start-color: #a78bfa;
+    background-color: rgba(167, 139, 250, 0.08);
+}
+[data-theme="dark"] blockquote.alert-important .alert-title {
+    color: #a78bfa;
+}

@@ -1,0 +1,24 @@
+{{ if eq .Type "alert" }}
+  <blockquote class="alert alert-{{ .AlertType }}">
+    <div class="alert-title">
+      <span class="alert-icon">
+        {{- if eq .AlertType "note" }}📝
+        {{- else if eq .AlertType "tip" }}💡
+        {{- else if eq .AlertType "warning" }}⚠️
+        {{- else if eq .AlertType "caution" }}🔥
+        {{- else if eq .AlertType "important" }}📢
+        {{- end -}}
+      </span>
+      <span class="alert-text">
+        {{- with .AlertTitle }}{{ . }}{{ else }}{{ title .AlertType }}{{ end -}}
+      </span>
+    </div>
+    <div class="alert-content">
+      {{ .Text }}
+    </div>
+  </blockquote>
+{{ else }}
+  <blockquote>
+    {{ .Text }}
+  </blockquote>
+{{ end }}
